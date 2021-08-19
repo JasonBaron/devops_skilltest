@@ -1,4 +1,4 @@
-# DevOps Resume Pre-Screen
+# DevOps Pre-Screen
 
 These test were written to quickly test your understing of different DevOps Toolset and should be quick to complete.
 
