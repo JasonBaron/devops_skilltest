@@ -2,7 +2,7 @@ This project requires docker to be installed. Included in this directory is a sa
 
 Within this docker build project there are 3 errors. 
 - fix those errors
-- build the docker image and 
+- build the docker image
 - start & run the docker web app as a daemon. 
 
 Then using the using the *docker cli*
