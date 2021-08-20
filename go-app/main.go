@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/csv"
+	"fmt"
 	"io"
 	"log"
 	"os"
@@ -39,7 +40,7 @@ func main() {
 		}
 
 		if newVal > oldVal {
-			fmt.Printf("%s %d\n", record[0], newVal - oldVal)
+			fmt.Printf("%s %d\n", record[0], newVal-oldVal)
 		}
 	}
 }
