@@ -1,4 +1,4 @@
-SOURCE node:14
+FROM node:14
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -16,5 +16,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-COMAND [ "node", "server.js" ]
+CMD [ "node", "server.js" ]
 
