@@ -1,3 +1,3 @@
 output "ip" {
-  value = docker_container.wordpress.ip_address
+  value = [for i in docker_container.wordpress : i.ip_address]
 }
