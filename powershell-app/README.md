@@ -1,0 +1,1 @@
+This script display second field in test.csv. Adjust the script to get the total value of third field in all records in test.csv

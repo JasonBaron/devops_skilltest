@@ -1,0 +1,1 @@
+Get-Content .\test.csv | %{ $_.Split(',')[1]; }
