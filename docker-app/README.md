@@ -16,3 +16,5 @@ Then using the using the, *docker cli*
 
 ## Running the image
 `docker run -p 8080:8080 node-web-app`
+
+**Please note:** *This folder contains a file named: server.txt -- you'll need to rename the file to server.js for it to work correctly but will need to rename it back to server.txt befor emailing. Many email systems restrict .js extensions when emailing.*
